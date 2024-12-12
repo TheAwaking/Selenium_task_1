@@ -31,3 +31,5 @@ def test_site(driver):
         EC.visibility_of_element_located((By.XPATH, "//*[contains(@class,'_1W_6HXiG4JJ0By1qN_0fGZ')]")))
 
     assert element.is_displayed()
+
+    # изменение
